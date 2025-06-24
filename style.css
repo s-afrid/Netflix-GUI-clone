@@ -19,7 +19,7 @@
     position: absolute;
     top: 0;
 }
-/* --------------------------------- */
+
 
 /* Navigation bar styling */
 nav {
@@ -40,3 +40,20 @@ nav button {
     position: relative;
     z-index: 10;
 }
+/* ------------------------------- */
+
+/* Hero banner styling */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+.hero_banner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+}
+/* --------------------------------- */
+/* --------------------------------- */
