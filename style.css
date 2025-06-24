@@ -23,12 +23,13 @@
 
 /* Navigation bar styling */
 nav {
-    max-width: 60vw;
+    max-width: 65vw;
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: space-between;
     height: 65px;
+    padding: 20px;
 }
 nav img {
     width: 150px;
