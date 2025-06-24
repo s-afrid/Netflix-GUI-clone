@@ -17,7 +17,7 @@ body {
 .main .box {
     height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.7;
     background-color: black;
     position: absolute;
     top: 0;
@@ -32,22 +32,28 @@ nav {
     align-items: center;
     justify-content: space-between;
     height: 65px;
+    padding: 14px;
 }
 nav img {
     width: 150px;
     position: relative;
     z-index: 10;
+    padding: 20px 0px;
 }
 nav button {
     position: relative;
     z-index: 10;
+}
+.nav-btn {
+    display: flex;
+    gap: 16px;
 }
 /* ------------------------------- */
 
 /* Hero banner styling */
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
 .hero_banner {
-    height: 100%;
+    height: calc(100% - 93px); /* To calculate a value*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +63,7 @@ nav button {
     color: white;
     font-family: "Martel Sans", sans-serif;
     gap: 23px;
-    padding: 30px;
+    padding: 0px 30px;
 }
 .hero_banner > :nth-child(1) {
     font-weight: 900;
@@ -74,5 +80,48 @@ nav button {
     font-size: 20px;
     text-align: center;
 }
+.hero-buttons {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 16px;
+}
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(226, 223, 223, 0.041); 
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white; 
+    cursor: pointer;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 400px;
+    border: none;
+}
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 900;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: rgba(29, 28, 28, 0.7);
+    border: 1px solid rgba(212, 207, 207, 0.5)
+}
 /* --------------------------------- */
+/* Separator line */
+.line {
+    height: 5px;
+    background-color: rgb(41, 41, 41);
+}
 /* --------------------------------- */
