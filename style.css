@@ -172,3 +172,37 @@ gap: 16px;
 }
 
 /* --------------------- */
+
+/* FAQS */
+.faq {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Martel Sans",sans-serif;
+    text-align: center;
+    padding: 34px;
+}
+.faq h2{
+    font-size: 48px;
+    font-weight: 900;
+    padding: 10px;
+}
+.faq .box:hover{
+    /* background-color: #7a7c7a; */
+    background-color: red;
+}
+.faq .box {
+    display: flex;
+    transition: all 1s ease-out;
+    background-color: #2C2D2C;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    width: 70vw;
+    text-align: center;
+    margin: 6px;
+    padding: 16px;
+    cursor: pointer;
+}
