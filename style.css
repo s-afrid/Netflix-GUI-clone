@@ -125,3 +125,48 @@ gap: 16px;
     background-color: rgb(41, 41, 41);
 }
 /* --------------------------------- */
+
+/* Section 1 */
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+.secImg {
+    position: relative;
+    width: 30vw;
+}
+.secImg img {
+    width: 30vw;
+    position: relative;
+    top: 0;
+    z-index: 10;
+    padding: 10px;
+    margin: auto;
+}
+ 
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0px;
+    width: 25vw;
+}
+
+.first .first-text{
+    display: flex;
+    flex-direction: column;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.first-text :nth-child(1){
+    font-weight: 900;
+    font-size: 28px;
+}
+.first-text :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+}
